@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-03T09:08:41Z" name="Default suite" finished-at="2023-02-03T09:08:46Z" duration-ms="4810">
+    <groups>
+    </groups>
+    <test started-at="2023-02-03T09:08:41Z" name="Default test" finished-at="2023-02-03T09:08:46Z" duration-ms="4810">
+      <class name="com.test.automation.NewTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.test.automation.NewTest@1033576a]" started-at="2023-02-03T14:38:41Z" name="beforeClass" finished-at="2023-02-03T14:38:41Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: cannot find Chrome binary
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'IN3317579W1', ip: '172.31.210.246', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00540C83+1707139]
+	Ordinal0 [0x004A68F1+1075441]
+	Ordinal0 [0x0041DFC9+516041]
+	Ordinal0 [0x003AC70E+50958]
+	Ordinal0 [0x003CBFD7+180183]
+	Ordinal0 [0x003CBDDD+179677]
+	Ordinal0 [0x003C9D4B+171339]
+	Ordinal0 [0x003B1D4A+73034]
+	Ordinal0 [0x003B2DC0+77248]
+	Ordinal0 [0x003B2D59+77145]
+	Ordinal0 [0x004BBB67+1162087]
+	GetHandleVerifier [0x005DA966+508998]
+	GetHandleVerifier [0x005DA6A4+508292]
+	GetHandleVerifier [0x005EF7B7+594583]
+	GetHandleVerifier [0x005DB1D6+511158]
+	Ordinal0 [0x004B402C+1130540]
+	Ordinal0 [0x004BD4CB+1168587]
+	Ordinal0 [0x004BD633+1168947]
+	Ordinal0 [0x004D5B35+1268533]
+	BaseThreadInitThunk [0x76BA00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DA7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77DA7B8E+238]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'IN3317579W1', ip: '172.31.210.246', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: driver.version: Driver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00540C83+1707139]
+	Ordinal0 [0x004A68F1+1075441]
+	Ordinal0 [0x0041DFC9+516041]
+	Ordinal0 [0x003AC70E+50958]
+	Ordinal0 [0x003CBFD7+180183]
+	Ordinal0 [0x003CBDDD+179677]
+	Ordinal0 [0x003C9D4B+171339]
+	Ordinal0 [0x003B1D4A+73034]
+	Ordinal0 [0x003B2DC0+77248]
+	Ordinal0 [0x003B2D59+77145]
+	Ordinal0 [0x004BBB67+1162087]
+	GetHandleVerifier [0x005DA966+508998]
+	GetHandleVerifier [0x005DA6A4+508292]
+	GetHandleVerifier [0x005EF7B7+594583]
+	GetHandleVerifier [0x005DB1D6+511158]
+	Ordinal0 [0x004B402C+1130540]
+	Ordinal0 [0x004BD4CB+1168587]
+	Ordinal0 [0x004BD633+1168947]
+	Ordinal0 [0x004D5B35+1268533]
+	BaseThreadInitThunk [0x76BA00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DA7BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77DA7B8E+238]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.test.automation.Driver.createFor(Driver.java:23)
+	at com.test.automation.NewTest.beforeClass(NewTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test()[pri:0, instance:com.test.automation.NewTest@1033576a]" started-at="2023-02-03T14:38:46Z" name="test" finished-at="2023-02-03T14:38:46Z" duration-ms="46" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.test.automation.NewTest@1033576a]" started-at="2023-02-03T14:38:46Z" name="afterClass" finished-at="2023-02-03T14:38:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.test.automation.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

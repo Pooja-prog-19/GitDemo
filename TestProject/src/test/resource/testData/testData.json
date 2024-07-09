@@ -1,0 +1,33 @@
+{
+  "SearchFlight":{
+  	"Data":[
+    		[	
+      			{"from": "Chennai"},
+      			{"to": "Port Blair"},
+      			{"Date":"14/08/2020"}
+     		]
+    ]	
+ } ,
+ 
+ "ProductSearch":{
+  	"Data":[
+    		[	
+      			{"searchByText": "Top"},
+      			{"gender": "Girls"},
+      			{"brand":"brands"},
+      			{"brandOption":"612 League"}
+     		],
+     		[	
+      			{"searchByText": "Top"},
+      			{"gender": "Girls"},
+      			{"brand":"brands"},
+      			{"brandOption":"Adidas Kids"}
+     		]
+     		
+    ]	
+ } 
+ 
+ 
+}
+
+

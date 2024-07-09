@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="4" name="Test">
+    <classes>
+		
+    <class name="com.automationTest.tests.LoginGoogle"/>
+       <class name="com.automationTest.tests.MenuNavigations"/>
+        <class name="com.automationTest.tests.SearchBartext"/>
+           <class name="com.automationTest.tests.FilterTest"/>
+           
+                      <class name="com.automationTest.tests.ProductDetailsPageTests"/>
+           				<class name="com.automationTest.tests.PincodeToKnowDeliveryTest"/>
+                      <class name="com.automationTest.tests.ShareProductDetailsTest"/>
+                        <class name="com.automationTest.tests.SortByOnListOfProduct"/>
+                        <class name="com.automationTest.tests.AddToCartTest"/>
+						<class name="com.automationTest.tests.BreadcrumbNavigationTest"/> 
+
+<class name="com.automationTest.tests.ProductDetailsPageTests"/>
+           
+          
+            
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
